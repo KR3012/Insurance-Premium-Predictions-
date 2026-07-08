@@ -62,10 +62,10 @@ to estimate an Insurance Premium.
 
 ## Files:
 
-analysis.py - Python code
-InsurancePricingData_v1.xlsx - Dataset used for training the model
-README.md
-Insurance_Premium_Graph.png
+- analysis.py - Python code
+- InsurancePricingData_v1.xlsx - Dataset used for training the model
+- README.md
+- Insurance_Premium_Graph.png
 
 ## Author:
 
