@@ -14,8 +14,7 @@ Install the required libraries before running the code:
 - pip matplotlib 
 - pip install scikit-learn
 
-as well as make sure the Excel dataset is under the same folder as the code.
-and make sure you label the code to read the excel file   
+Make sure the Excel Dataset is under the same folder as the code.  
 
 ## Insurance Premium Model:
 
@@ -64,8 +63,9 @@ to estimate an Insurance Premium.
 ## Files:
 
 analysis.py - Python code
-
 InsurancePricingData_v1.xlsx - Dataset used for training the model
+README.md
+Insurance_Premium_Graph.png
 
 ## Author:
 
