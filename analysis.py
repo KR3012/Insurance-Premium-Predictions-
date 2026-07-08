@@ -35,7 +35,7 @@ plt.legend() # plots key of what colour is what
 print("Gradient:", model.coef_[0])
 print("Intercept:", model.intercept_)
 print(f"Equation of line: Estimated Premium = {model.coef_[0]:.2f} x Age + {model.intercept_:.2f}")
+plt.savefig("Insurance_Premium_Graph.png")
 plt.show()
-
 
 
