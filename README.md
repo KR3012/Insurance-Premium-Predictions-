@@ -14,7 +14,8 @@ Install the required libraries before running the code:
 - pip matplotlib 
 - pip install scikit-learn
 
-as well as make sure the Excel dataset is under the same folder as the code.  
+as well as make sure the Excel dataset is under the same folder as the code.
+and make sure you label the code to read the excel file   
 
 ## Insurance Premium Model:
 
