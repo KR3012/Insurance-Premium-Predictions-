@@ -14,6 +14,8 @@ Install the required libraries before running the code:
 - pip matplotlib 
 - pip install scikit-learn
 
+as well as make sure the Excel dataset is under the same folder as the code.  
+
 ## Insurance Premium Model:
 
 The graph below shows the relationship between the age of the customer and the insurance premiums that they would be charged. The blue points represent the actual data, while the regression model estimates the average premium using multiple linear regression lines.
