@@ -4,9 +4,16 @@
 
 This project predicts a customer's estimated Insurance Premium using Multiple Linear Regression Lines in Python, this is done by calculating the gradient and constant of these regression lines then subbing them back into the formula of an equation of a line to find the Estimated Insurance Premium for any given age. 
 
-## Insurance Premium Model
+## Running the code: 
 
-## Regression Model
+Before running this project, make sure Python is installed on your computer.
+
+Install the required libraries before running the code: 
+
+pip install pandas openpyxl matplotlib 
+pip install scikit-learn
+
+## Insurance Premium Model:
 
 The graph below shows the relationship between the age of the customer and the insurance premiums that they would be charged. The blue points represent the actual data, while the regression model estimates the average premium using multiple linear regression lines.
 
