@@ -20,6 +20,14 @@ The graph below shows the relationship between the age of the customer and the i
 
 ![Insurance Premium Prediction](Insurance_Premium_Graph.png)
 
+## Data:
+
+The dataset used for this project was created in Excel using reasonable estimations to show the purpose of how the code works.
+
+You can view or download the dataset here:
+
+[Download the Excel Dataset](InsurancePricingData_v1.xlsx)
+
 ## The model uses:
 
 - Age
