@@ -10,8 +10,9 @@ Before running this project, make sure Python is installed on your computer.
 
 Install the required libraries before running the code: 
 
-pip install pandas openpyxl matplotlib 
-pip install scikit-learn
+- pip install pandas openpyxl 
+- pip matplotlib 
+- pip install scikit-learn
 
 ## Insurance Premium Model:
 
