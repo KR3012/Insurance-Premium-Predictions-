@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_squared_error
 # r2_score and mean_squared_error are functions that calculate how good the model is
 # r2_score = R² tells us the variation of the data thereforehow far our prediction is from the average 
-# having 0.616/ 61.6% tells us 61.6% of the variation in the data is explained by our model, the rest the model cannot explain for ex location 
+# having 0.616/ 61.6% tells us 61.6% of the variation in the data is explained by our model, the rest the model cannot explain for example location 
 # root_mean_squared_error = RMSE (on average how far off in £ our guess is form average)
 
 data = pd.read_excel("InsurancePricingData_v1.xlsx")
