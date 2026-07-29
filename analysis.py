@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_squared_error
 # r2_score and mean_squared_error are functions that calculate how good the model is
 # r2_score = R² tells us the variation of the data thereforehow far our prediction is from the average 
-# having 0.617/ 61.7% tells us 61.7% of the variation in the data is explained by our model, the rest the model cannot explain for ex location 
+# having 0.616/ 61.6% tells us 61.6% of the variation in the data is explained by our model, the rest the model cannot explain for ex location 
 # root_mean_squared_error = RMSE (on average how far off in £ our guess is form average)
 
 data = pd.read_excel("InsurancePricingData_v1.xlsx")
@@ -28,7 +28,7 @@ X_train, X_test, Y_train, Y_test = train_test_split(
 model = LinearRegression()
 model.fit(X_train, Y_train)
 predicted_premium = model.predict(X_test)
-# mkaing the model guess premiums only for the 20% test, therefore the ones it has never seen before
+# making the model guess premiums only for the 20% test, therefore the ones it has never seen before
 
 r2 = r2_score(Y_test, predicted_premium)
 rmse = mean_squared_error(Y_test, predicted_premium) ** 0.5
