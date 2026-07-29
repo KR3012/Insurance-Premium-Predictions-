@@ -2,7 +2,7 @@
 
 ## Overview:
 
-This project predicts a customer's estimated Insurance Premium using Multiple Linear Regression Lines in Python, this is done by calculating the gradient and constant of these regression lines then subbing them back into the formula of an equation of a line to find the Estimated Insurance Premium for any given age. The code takes into account the Age, Years driven, Previous Claims, and Annual Mileage when plotting the Data to help plot regression lines. 
+This project predicts a customer's estimated Insurance Premium using Multiple Linear Regression Lines in Python, this is done by calculating the gradient and constant of these regression lines then subbing them back into the formula of an equation of a line to find the Estimated Insurance Premium for any given age. Therefore this allows the code to calculate the root mean squared error values (variation) which tells how far our prediction values are from the average by taking a test. The code takes into account the Age, Years driven, Previous Claims, and Annual Mileage when plotting the Data to help plot regression lines. 
 
 ## Running the code: 
 
