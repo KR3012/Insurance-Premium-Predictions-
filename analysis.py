@@ -21,7 +21,7 @@ X = data[["Age", "Years Driving", "Previous Claims", "Annual Mileage"]]
 Y = data["FinalPremium"]
 
 # spliting customers into 80% to train and 20% to test on
-# random_state=40 just makes the split the same every time we run it, this allows our results to be repeated 
+# random_state=40 just makes the split the same every time we run it, this allows our results to be the same whenever we run the code
 X_train, X_test, Y_train, Y_test = train_test_split(
     X, Y, test_size=0.2, random_state=40
 )
